@@ -20,7 +20,7 @@ function get_latest_tweet($username)
 <style type="text/css">
 	body { background-color: #00a1f2; min-height: 800px;}
 	#vicetext { position: absolute; top: 0px; left: 0px; width: 700px; height: 700px; background-image: url(vicestevens.png);}
-	#social { position:absolute; top: 250px; left: 450px; width: 500px;}
+	#social { position:absolute; top: 350px; left: 450px; width: 500px;}
 	#social img { opacity: .6; }
 	#social img:hover { opacity: 1.0; }
 	#status { color: #fff; font-family: "Verdana"; font-size: 3em; letter-spacing: -.1em; }
@@ -36,7 +36,7 @@ function get_latest_tweet($username)
 	
 	<div id="social">
 		<div id="status">
-			<h1><?= get_latest_tweet('vicestevens'); ?></h1>
+			<h1><?= //get_latest_tweet('vicestevens'); ?></h1>
 		</div>
 		<a href="http://amiestreet.com/music/vice-stevens/">
 			<img src="amie.png" alt="hear us on amie street" />
